@@ -3,6 +3,7 @@ import 'package:resapp/components/ThemeMaker.dart';
 import 'package:resapp/views/Math/CatSolvers/DecimalToHexaDecimal.dart';
 import 'package:resapp/views/Math/util/FormatNumber.dart';
 import 'package:resapp/views/Math/CatSolvers/DecimalToBinary.dart';
+import 'package:resapp/views/Math/CatSolvers/BinaryToDecimal.dart';
 
 
 class MultipleChoice extends StatefulWidget{
@@ -195,6 +196,8 @@ class _MultipleChoice extends State<MultipleChoice>{
           toPush = DecimalToBinary(value:n);
     if(title=="Decimal To Hexadecimal")
           toPush = DecimalToHexaDecimal(value: n);
+    if(title=="Binary To Decimal")
+          toPush = BinaryToDecimal(value:n);
     if(toPush!=null)
       Navigator.push(context,MaterialPageRoute(builder: (context) => toPush));
   }

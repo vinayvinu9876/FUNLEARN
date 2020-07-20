@@ -89,7 +89,7 @@ class _MathHome extends State<MathHome>{
                                     imageUrl :"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ4LsPlr2A8An7WfTY8qVGmpbbuDPceDrVO7Q&usqp=CAU",
                                     title : "Binary To Decimal",
                                     description: "A decimal number can be defined as a number whose whole number part and the fractional part is separated by a decimal point.",
-                                    options : [512,1024,2048],
+                                    options : [1011,1010,1000],
                                   ),
                                   SizedBox(height:height*0.02),
                                   item(
